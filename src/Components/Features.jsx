@@ -35,7 +35,7 @@ const features = [
 
 const Features = () => {
   return (
-    <section className="py-16 pt-26 px-6 bg-white dark:bg-gray-950 transition-colors duration-300">
+    <section id="features" className="py-16 pt-26 px-6 bg-white dark:bg-gray-950 transition-colors duration-300">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4 tracking-tight">
