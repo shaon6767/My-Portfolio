@@ -5,7 +5,7 @@ import { TbDeviceMobileCheck, TbRocket } from "react-icons/tb";
 const features = [
   {
     title: "Modern UI Design",
-    description: "Creating beautiful,responsive interfaces that look great on any device using the latest design trends.",
+    description: "Creating beautiful, responsive interfaces that look great on any device using the latest design trends.",
     icon: <HiOutlineSparkles className="w-8 h-8 text-blue-500" />,
     bg: "bg-blue-50/50 dark:bg-blue-900/10",
     border: "border-blue-100 dark:border-blue-800",

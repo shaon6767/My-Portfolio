@@ -31,10 +31,10 @@ const Navbar = () => {
                 <li key={link.name}>
                   <a
                     href={link.href}
-                    className="relative py-1 text-gray-700 dark:text-gray-300 hover:text-green-500 dark:hover:text-green-500 transition-colors duration-300 group"
+                    className="relative py-1 text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-500 transition-colors duration-300 group"
                   >
                     {link.name}
-                    <span className="absolute bottom-0 right-0 w-0 h-[2px] bg-green-500 transition-all duration-300 ease-in-out group-hover:w-full group-hover:left-0"></span>
+                    <span className="absolute bottom-0 right-0 w-0 h-0.5 bg-blue-500 transition-all duration-300 ease-in-out group-hover:w-full group-hover:left-0"></span>
                   </a>
                 </li>
               ))}
@@ -44,7 +44,7 @@ const Navbar = () => {
           <div className="flex items-center space-x-4">
             <button 
               onClick={toggleTheme} 
-              className="text-xl text-gray-700 dark:text-gray-300 hover:text-green-500 transition-colors"
+              className="text-xl text-gray-700 dark:text-gray-300 hover:text-gray-500 transition-colors"
             >
               {isDarkMode ? <FiSun /> : <IoMoon />}
             </button>

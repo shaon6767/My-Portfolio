@@ -8,7 +8,7 @@ const Banner = () => {
             </h1>
             <p className="text-2xl text-gray-600 dark:text-gray-400 mb-8">Creating <strong>high-quality web applications</strong> with modern tools and best practices for exceptional user experience</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12"><a href="#projects" className="px-8 py-3 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-600 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-blue-300/30 dark:hover:shadow-blue-500/20 shadow-blue-200/20 dark:shadow-blue-700/10 cursor-pointer"> View Projects</a>
-            <a href="#about" className="px-8 py-3 bg-white dark:bg-black/80 text-gray-900 dark:text-white border border-gray-200 dark:border-gray-700 rounded-lg hover:border-gray-400 dark:hover:border-white transition-colors ">Learn More</a></div>
+            <a href="#contact" className="px-8 py-3 bg-white dark:bg-black/80 text-gray-900 dark:text-white border border-gray-200 dark:border-gray-700 rounded-lg hover:border-gray-400 dark:hover:border-white transition-colors ">Learn More</a></div>
         </div>
     </div>
     </section>

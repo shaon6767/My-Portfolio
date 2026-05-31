@@ -1,19 +1,19 @@
 import React from "react";
 
 const skills = [
-  { name: "HTML5", color: "bg-orange-500", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
-  { name: "CSS3", color: "bg-blue-500", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
   { name: "JavaScript", color: "bg-yellow-500", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
   { name: "React.js", color: "bg-cyan-500", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
   { name: "Next.js", color: "bg-gray-800 dark:bg-white", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
   { name: "Tailwind CSS", color: "bg-teal-500", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
+  { name: "Git", color: "bg-orange-600", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+  { name: "GitHub", color: "bg-gray-800 dark:bg-white", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
 ];
 
 const Skills = () => {
   return (
     <section className="py-16 px-6 bg-white dark:bg-gray-950 transition-colors duration-300">
       <div className="max-w-7xl mx-auto">
-        
+
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4 tracking-tight">
             My Skills
@@ -25,8 +25,8 @@ const Skills = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {skills.map((skill, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className="p-6 rounded-2xl border border-gray-100 dark:border-gray-800 bg-gray-50/30 dark:bg-gray-900/40 hover:border-gray-300 dark:hover:border-gray-600 transition-all duration-300 group"
             >
               <div className="flex items-center gap-4 mb-6">
@@ -39,7 +39,7 @@ const Skills = () => {
               </div>
 
               <div className="w-full h-1.5 bg-gray-200 dark:bg-gray-800 rounded-full overflow-hidden">
-                <div 
+                <div
                   className={`h-full ${skill.color} w-full transition-all duration-700 ease-in-out group-hover:opacity-80`}
                 ></div>
               </div>

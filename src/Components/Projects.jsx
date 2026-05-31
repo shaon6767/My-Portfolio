@@ -1,34 +1,37 @@
 import React from "react";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
+import pic from "../assets/up.jpg"
+import picc from "../assets/upp.jpg"
+import piccc from "../assets/uppp.jpg"
 
 const projects = [
   {
-    title: "QuantumLeap SaaS Platform",
-    description: "A comprehensive analytics dashboard designed for modern engineering teams to visualize velocity.",
-    tech: ["Next.js", "Tailwind", "Framer", "Recharts"],
-    image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=600&h=400&auto=format&fit=crop",
-    github: "https://github.com/yourusername/quantumleap",
-    live: "https://quantumleap.dev",
+    title: "AI Chatbot",
+    description: "An AI chatbot that can interact and assist users with any business-related queries.",
+    tech: ["Next.js", "Tailwind"],
+    image: pic,
+    github: "https://github.com/shaon6767/ChatBot",
+    live: "https://agent-beta-seven.vercel.app/",
     gradient: "from-blue-500 to-cyan-400",
     borderTheme: "border-blue-500 text-blue-600 hover:bg-blue-500 hover:text-white",
   },
   {
-    title: "The Creator's Canvas",
-    description: "An interactive portfolio builder tailored for visual artists, allowing code-free customization.",
-    tech: ["React.js", "Vite", "Three.js", "Zustand"],
-    image: "https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=600&h=400&auto=format&fit=crop",
-    github: "https://github.com/yourusername/creators-canvas",
-    live: "https://creatorscanvas.art",
+    title: "E-Commerce Website",
+    description: "A modern e-commerce website with a clean UI and seamless shopping experience.",
+    tech: ["React.js", "Tailwind", "Redux"],
+    image: picc,
+    github: "https://github.com/shaon6767/E-Commerce",
+    live: "https://marvelous-raindrop-8e707f.netlify.app/",
     gradient: "from-purple-500 to-pink-400",
     borderTheme: "border-purple-500 text-purple-600 hover:bg-purple-500 hover:text-white",
   },
   {
-    title: "NexusCRM Lite",
-    description: "A lightweight CRM tool built specifically for small freelance businesses to manage leads.",
-    tech: ["TypeScript", "Node.js", "PostgreSQL", "Tailwind"],
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600&h=400&auto=format&fit=crop",
-    github: "https://github.com/yourusername/nexuscrm",
-    live: "https://nexuscrm.lite",
+    title: "Dashboard",
+    description: "A demo dashboard for tracking key business numbers and metrics.",
+    tech: ["TypeScript", "Next.js","Tailwind"],
+    image: piccc,
+    github: "https://github.com/shaon6767/Dashboard",
+    live: "https://dashboard-wnog.vercel.app/",
     gradient: "from-emerald-500 to-teal-400",
     borderTheme: "border-emerald-500 text-emerald-600 hover:bg-emerald-500 hover:text-white",
   },
@@ -38,7 +41,7 @@ const Projects = () => {
   const btnBase = "flex items-center gap-2 px-5 py-2 rounded-lg text-sm font-bold border-2 transition-all duration-300 bg-white dark:bg-transparent";
 
   return (
-    <section className="py-24 px-6 bg-white dark:bg-gray-950 transition-colors duration-300">
+    <section id="projects" className="py-24 px-6 bg-white dark:bg-gray-950 transition-colors duration-300">
       <div className="max-w-7xl mx-auto">
         
         <div className="mb-16 text-center">
@@ -46,7 +49,7 @@ const Projects = () => {
             Featured Projects
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto leading-relaxed">
-           Check out some of my recent work.
+           Check out some of my work.
           </p>
         </div>
 
@@ -95,7 +98,7 @@ const Projects = () => {
                   </a>
 
                   <a href={project.github} className={`${btnBase} ${project.borderTheme}`}>
-                    <FiGithub className="w-4 h-4" /> Code
+                    <FiGithub className="w-4 h-4" /> Github
                   </a>
                 </div>
               </div>

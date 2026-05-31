@@ -6,7 +6,7 @@ const Contact = () => {
   const inputBase = "w-full px-4 py-3 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800 text-gray-950 dark:text-white placeholder-gray-950 dark:placeholder-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all duration-300 outline-none";
 
   return (
-    <section className="py-20 px-6 bg-white dark:bg-gray-950 transition-colors duration-300">
+    <section id="contact" className="py-20 px-6 bg-white dark:bg-gray-950 transition-colors duration-300">
       <div className="max-w-7xl mx-auto">
         
         {/* Header */}
