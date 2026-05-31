@@ -1,8 +1,8 @@
 import React from "react";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
-import pic from "../assets/up.jpg"
-import picc from "../assets/upp.jpg"
-import piccc from "../assets/uppp.jpg"
+import pic from "../assets/up.JPG"
+import picc from "../assets/upp.JPG"
+import piccc from "../assets/uppp.JPG"
 
 const projects = [
   {
