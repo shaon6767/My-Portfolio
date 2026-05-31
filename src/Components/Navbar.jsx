@@ -44,7 +44,7 @@ const Navbar = () => {
           <div className="flex items-center space-x-4">
             <button 
               onClick={toggleTheme} 
-              className="text-xl text-gray-700 dark:text-gray-300 hover:text-gray-500 transition-colors"
+              className="text-xl text-gray-700 dark:text-gray-300 hover:text-gray-500 transition-colors cursor-pointer"
             >
               {isDarkMode ? <FiSun /> : <IoMoon />}
             </button>
