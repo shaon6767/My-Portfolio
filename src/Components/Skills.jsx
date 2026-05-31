@@ -5,7 +5,7 @@ const skills = [
   { name: "React.js", color: "bg-cyan-500", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
   { name: "Next.js", color: "bg-gray-800 dark:bg-white", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
   { name: "Tailwind CSS", color: "bg-teal-500", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
-  { name: "Git", color: "bg-orange-600", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+  { name: "Docker", color: "bg-blue-500", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
   { name: "GitHub", color: "bg-gray-800 dark:bg-white", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
 ];
 
