@@ -12,7 +12,7 @@ const About = () => {
           <p className="text-2xl text-gray-600 dark:text-gray-400 leading-relaxed"> I'm a frontend developer focused on crafting clean and user-friendly experinece. 
           </p>
           <p className="text-lg mt-8 text-gray-800 dark:text-gray-400 leading-relaxed">
-            I build responsive websites that are fast, easy to use and follow best coding practices. My expertise includes HTML, CSS, JavaScript, React, Next.js, Tailwind CSS to create dynamic, engaging interfaces with clean and optimized code.
+            Hi, My Name Is Shawon Chowdhury. I build responsive websites that are fast, easy to use and follow best coding practices. My expertise includes HTML, CSS, JavaScript, React, Next.js, Tailwind CSS to create dynamic, engaging interfaces with clean and optimized code.
           </p>
           
           <div className="pt-4">
@@ -29,7 +29,7 @@ const About = () => {
               <img
                 src={me}
                 alt="Your Name"
-                className="rounded-full w-58 h-48 md:w-74 md:h-74 object-cover object-left "
+                className="rounded-full w-68 h-68 md:w-84 md:h-84 object-cover object-left "
               />
             </div>
           </div>
