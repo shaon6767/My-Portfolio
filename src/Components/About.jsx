@@ -29,7 +29,7 @@ const About = () => {
               <img
                 src={me}
                 alt="Your Name"
-                className="rounded-full w-68 h-68 md:w-84 md:h-84 object-cover object-left "
+                className="rounded-full w-68 h-68 lg:w-84 lg:h-84 object-cover object-left "
               />
             </div>
           </div>
